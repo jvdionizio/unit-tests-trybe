@@ -31,7 +31,7 @@ describe('4 - Implemente os casos de teste para a função `circle`', () => {
     expect(circle()).toBeUndefined();
     expect(circle(2).circumference).toEqual(12.56);
     expect(circle(3).area).toBeCloseTo(28.26, 4);
-    expect(circle(3)).toEqual({ radius: 3, area: 28.259999999999998, circumference: 18.84 });
+    expect(circle(3)).toEqual({ radius: 3, area: 3.14 * 3 * 3, circumference: 2 * 3.14 * 3 });
     // ESCREVA SEUS TESTES ABAIXO:
     // Teste se circle retorna undefined, caso o parâmetro passado não seja um número.
     // Teste se circle retorna um objeto.
